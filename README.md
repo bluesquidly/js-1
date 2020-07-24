@@ -1,2 +1,2 @@
 # js
-Hosting JS Payloads for stuff like https://www.jsdelivr.com
+Hosting JS/XSS Payloads for stuff like https://www.jsdelivr.com
