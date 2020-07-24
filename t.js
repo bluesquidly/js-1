@@ -52,4 +52,3 @@ fetch(`https://va.tawk.to/register/${timestamp}`, {
     };
   });
 });
-alert('fired');
